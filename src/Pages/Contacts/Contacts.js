@@ -6,7 +6,7 @@ import SocketIO from 'socket.io-client'
 import api from '../../services/api'
 import Footer from '../../components/footer'
 import './contacts.css'
-const socket = SocketIO('http://localhost:9000')
+const socket = SocketIO(process.env.REACT_APP_API_SOCKET_URL)
 
 export default function Contacts() {
   const [name, setName] = useState('')

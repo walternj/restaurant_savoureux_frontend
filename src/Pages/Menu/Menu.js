@@ -8,7 +8,7 @@ import Card from 'react-bootstrap/Card'
 
 import './menu.css'
 
-const socket = SocketIO('http://localhost:9000')
+const socket = SocketIO(process.env.REACT_APP_API_SOCKET_URL)
 
 export default function Menu() {
 	const [plats, setPlats] = useState([])
