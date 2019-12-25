@@ -1,0 +1,26 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  min-width: fit-content;
+  background-color: transparent;
+} 
+
+.scrollUpButtonContainer {
+  background-color: none;
+  color: #F819;
+  text-decoration-color: blue;
+
+}
+
+@media (max-width: 768px) {
+  .App {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    min-width: fit-content;
+  }
+}
+
+

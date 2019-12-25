@@ -1,0 +1,151 @@
+
+  /* votre code ici, pour les écrans de taille < 799 px */
+
+  .homeContainer  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.35), 
+      rgba(0, 0, 0, 0.35)
+    ),url('../../assets/images/img_bg_1.jpg');
+  
+    min-height: fit-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+  }
+
+  .begin {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 80%;
+    height: 92vh;
+    min-height: fit-content;
+    margin-top: 8vh;
+   
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+      
+    animation-name: move;
+    animation-duration: 1s;
+  }
+  @keyframes move {
+    from {
+      opacity: 0;
+      transform: translateX(35%);
+    }to {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+  }
+  #by {
+    display: flex;
+    font-size: 1vw;
+    font-weight: bold;
+    color: rgba(207, 198, 198, 0.842);
+    text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    line-height: 10px;
+    white-space: break-spaces;
+  }
+
+  #by span {
+    color: #F81;
+  }
+
+  #brand {
+  font-family: Dancing Script, Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 5.5vw;
+  line-height: 70px;
+  margin-top: 20px;
+  color: #FFF;
+  font-style: italic;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+
+@media (max-width: 1024px) {
+  .homeContainer  {
+    display: flex;
+    align-content: center;
+    width: 100%;
+    min-height: fit-content;
+
+  }
+  .begin {
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  #by {
+    margin-bottom: 0;
+    position: absolute;
+    margin-top: 25px 
+  }
+
+  #brand {
+    margin-top: 0;
+   
+  }
+
+}
+
+@media (max-width: 768px) {
+  .homeContainer  {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    min-height: fit-content;
+    height: 108vh;
+    margin-top: -8vh;
+  }
+
+  .begin {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 95vh;
+    width: 100%
+ 
+  }
+
+  #by {
+   display: none
+    
+  }
+
+  #by span {
+    color: #F81;
+  }
+
+  #brand {
+    font-family: Dancing Script, Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0;
+    color: #FFF;
+    font-style: italic;
+    font-weight: bold;
+    display: none;
+  }
+  
+}
+

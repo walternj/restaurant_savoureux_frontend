@@ -1,0 +1,100 @@
+.reservationContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  
+  background-image: url("../../assets/images/img_bg_2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.contentReservation {
+
+  display: flex;
+  flex-direction: column;
+  margin-top: 8vh;
+  height: 92vh;
+  font-family: Dancing Script, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 52px;
+  color: #FFF;
+  text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+}
+
+.contentReservation p {
+  display: flex;
+  justify-content: center;
+  min-height: fit-content;
+  animation-name: move;
+  animation-duration: 1s;
+}
+@keyframes move {
+  from {
+    opacity: 0;
+    transform: translateX(35%);
+  }to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+@media (max-width: 1024px) {
+  .reservationContainer  {
+    display: flex;
+    
+    align-content: center;
+    width: 100%;
+    min-height: fit-content;
+
+  }
+  .contentReservation {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    
+  }
+
+}
+
+@media (max-width: 768px) {
+  .reservationContainer  {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    min-height: fit-content;
+    min-width: fit-content;
+    height: 108vh;
+    margin-top: -8vh;
+  }
+
+  .contentReservation {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 92vh;
+    margin-top: 8vh;
+    width: 80%;
+    min-height: fit-content;
+  }
+}
+
+@media (max-width: 767px) {
+  .contentReservation {
+    width: 100%;
+    margin-bottom: 15px;
+  }  
+}
+
+
+
+

@@ -1,0 +1,155 @@
+.popularsDishes {
+  display: flex;
+  width: 100%;
+  max-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: transparent;
+  margin-bottom: 30px;
+}
+
+.popularsDishes #ul {
+  display: flex;
+  width: 80%;
+ 
+  height: 600px;
+  min-height: fit-content;
+  max-height: fit-content;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  margin-right: -18px;
+  
+  border-bottom-style: solid;
+  box-shadow: 5px 5px 10px ;
+  border-top-style: solid;
+  border-width: 1px;
+}
+
+.popularsDishes #li {
+  
+  max-width:100%;
+  max-height:100%;
+  min-width: 100%;
+  height: fit-content;
+  min-height: fit-content;
+}
+
+.popularsDishes #li img {
+  display: flex;
+  max-width:100%;
+  max-height:100%;
+  min-width: 100%;
+  min-height: fit-content;
+  cursor: pointer;
+  justify-self: center;
+  align-self: center;
+  object-fit: cover;
+  min-height: stretch;
+  margin-right: 0;
+}
+.popularsDishes #li img:hover {
+  opacity: 0.80;
+}
+
+.popularsDishes #li strong {
+  font-family: Dancing Script, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 5vw;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: #F81;
+  cursor: pointer;
+}
+.popularsDishes #li strong:hover {
+  background-color: #FFF5;
+}
+
+.popularsDishes #li span {
+  font-family: Dancing Script, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3.5vw;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: #F81;
+  cursor: pointer;
+}
+.popularsDishes #li span:hover {
+  background-color: #FFF5;
+}
+
+.popularsDishes #li p {
+  font-family: Dancing Script, Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-shadow:-2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  color: #EEE;
+  font-size: 2em;
+  cursor: pointer;
+}
+.popularsDishes #li p:hover {
+  font-size: 3em;
+  background-color: #FFF5;
+}
+
+.popularsDishes #li h5 {
+  display: flex;
+  justify-content: center;
+  text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: #F81;
+  cursor: pointer;
+}
+
+.carousel-control-next-icon {
+  color: black
+}
+
+@media (max-width: 1200px) {
+  .popularsDishes #ul {
+ 
+    max-height: 580px ;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  .popularsDishes #ul {
+    margin-right: -25px;
+    width: 100%;
+    
+  }
+}
+
+@media (max-width: 768px) {
+
+  .popularsDishes #ul {
+    width: 100%;
+    height: 420px;
+    margin-right: -25px;
+  }
+
+  @media (max-width: 680px) {
+    .popularsDishes #ul {
+      height: 200px;
+      width: 100%;
+      margin-right: -25px;
+    }
+
+    .popularsDishes #li img{
+      border-radius: 0
+    }
+
+    .popularsDishes #li strong:hover {
+      font-size: 6.5vw;
+    }
+
+    .popularsDishes #li p {
+      display:  none;
+    }
+    .popularsDishes #li p:hover {
+      background-color: #FFF5;
+    }
+  }
+}

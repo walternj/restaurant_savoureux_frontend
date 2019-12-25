@@ -1,0 +1,96 @@
+.Dishes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: rgb(248, 241, 217);
+  width: 100%;
+  height: fit-content;
+ 
+  border-width: 2px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  
+}
+
+.Dishes #content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-height: fit-content;
+  align-items: center;
+  align-content: center;
+  margin-top: 30px;
+  margin-bottom:  30px;
+  font-family: Dancing Script, Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 5.7vw;
+  font-weight: bold;
+  color:  #F81;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+/* .Dishes ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  align-items: center;
+  list-style: none;
+  
+  min-width: fit-content;
+  max-width: fit-content;
+  padding: 0 0 0 0;
+  flex-wrap: wrap;
+  margin: 0 5px  0;
+  height: auto;
+}
+
+.Dishes ul li img {
+  display: flex;
+  width: 420px;
+  height: 300px;
+  opacity: 0.95;
+  
+}
+
+.Dishes ul li img:hover {
+  opacity: 1;
+  
+}
+
+.Dishes ul span {
+  display: flex;
+  justify-self: flex-end;
+  align-self: flex-start;
+}
+
+.Dishes ul p {
+  display: flex;
+  width: 420px;
+} */
+
+
+
+@media (max-width: 1024px) {
+  .Dishes {
+    max-width: 100%;
+
+  }
+ 
+}
+
+@media (max-width: 768px) {
+  .Dishes {
+    max-width: 100%;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+  }
+
+}

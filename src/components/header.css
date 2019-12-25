@@ -1,0 +1,311 @@
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  width: 100%;
+  height: 8vh;
+
+  border-bottom-style: solid;
+  border-color: rgba(256, 256, 256, 0.20);
+  background-color:  rgba(0, 0, 0, 0.45);
+
+  position: fixed;
+  z-index: 2;
+  
+}
+
+ .headerContent {
+  display: flex;
+  justify-content: space-between;
+
+  width: 80%;
+  align-items: center;
+  align-content: center;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: fit-content;
+  
+}
+
+.logo #savoureux {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 26px;
+  color: #FFF;
+  font-weight: bold;
+
+}
+.logo #exclamation {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 26px;
+  font-style: italic;
+  font-weight: bold;
+  color: #F81
+
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.menu nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  align-items: center;    
+  justify-content: center;
+  align-content: center;
+  color: #FFF;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-weight:600;
+  list-style: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.links:hover{
+  text-decoration: none;
+  color: #F81;
+}
+
+.main-nav-active {
+  color:#F81;
+  font-size: 18px;
+  font-weight: 600;
+} 
+
+.reservButton {
+  border-style: solid;
+  border-color: #FFF;
+  border-radius: 5px;
+  padding: 5px;
+  border-width: 1.2px;
+  color: #FFF;
+  font-size: 18px;
+  font-weight:600;
+  height: 40px;
+  background-color:transparent;
+  cursor: pointer;
+}
+.reservButton:hover {
+  color: #FFF;
+  background-color:#F81;
+  text-decoration: none;
+}
+.reservButton:focus  {
+  outline: none;
+  
+}
+.reserv-buttom-active {
+  background-color:#F81C;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.menuButton {
+  display: none ;
+  align-self: auto;
+  color: #FFF;
+  align-self: center;
+  background-color: transparent;
+  border: none;
+  padding: 0 ;
+  margin: 0;
+  height: fit-content;
+  cursor: pointer;
+}
+.menuButton:focus{
+  outline:none;
+}
+
+.dropdownMenu{
+  display: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 60%;
+  min-width: fit-content;
+  height: 92vh;
+  min-height: fit-content;
+  background-color:rgba(256, 256, 256, 0.95);
+  padding: 10px;
+  position: absolute;
+  right: 0px;
+  top: 8vh;
+  text-decoration: none;
+  border-left: #F81;
+  border-left-width: 2px;
+  border-left-style: solid;
+  border-top:#000;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-left-radius: 5px;
+
+  animation-name: move;
+  animation-duration: 1s;
+  animation-direction: normal;
+
+}
+@keyframes move {
+  from {
+    opacity: 0;
+    transform: translateX(35%);
+    top: 0px
+  }to {
+    opacity: 1;
+    transform: translateX(0%);
+    top: 200px
+  }
+}
+
+.dropdownMenu li {
+  display: block;
+  
+  text-decoration: none;
+  color: #000;
+  font-size: 1.5em;
+  padding: 10px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: gray;
+  
+}
+.dropdownMenu li:hover {
+  background-color: #fd8206b4;
+  text-decoration: none;
+
+}
+.dropdownMenu li :focus {
+  outline: 0;
+  text-decoration: none;
+}
+.dropdownMenu li :active {
+  outline: 0;
+  text-decoration: none;
+}
+
+#linkLogo {
+  display: flex;
+}
+#linkLogo:hover {
+  text-decoration: none;
+}
+
+#dropdown-menu-align-right {
+  color: #FFF;
+  padding: 0;
+  margin: 0;
+  height: fit-content;
+  font-size: 50px;
+  overflow: hidden;
+
+}
+#dropdown-menu-align-right:active{
+  font-size: 70px
+}
+
+.main-dropdown-active {
+  background-color: #F81C;
+}
+
+.menuIcon {
+  color: #FFF;
+  
+}
+
+.menuButton {
+  display: none;
+  font-size: 5.5vh;
+}
+
+@media (max-width: 1024px) {
+  .headerContainer{
+    height: 6vh;
+   
+  }
+
+  .headerContent {
+    margin-top: 10px; 
+  }
+
+  .menu button {
+    height: 28px;
+    
+  }
+
+  .reservButton {
+    height: 32px;
+  }
+
+  .dropdownMenu {
+    display: none;
+  }   
+
+}
+
+@media (max-width: 768px) {
+  .headerContainer{
+    height: 8vh;
+    position: relative;
+    
+  }
+
+  .logo {
+    margin-top: 15px;
+  }
+
+  .dropdownMenu {
+    display: none;
+  }
+
+}
+
+@media (max-width: 728px) {
+  .menu {
+    display: none;
+  }
+
+  .menuButton {
+    display: flex;
+  }
+
+  .dropdownMenu {
+    display: flex;
+  }
+}
+
+@media (max-width: 480px) {
+  .headerContainer{
+    height: 8vh;
+    position: relative;
+    align-items: center;
+    
+  }
+
+  .menuButton {
+    font-size: 6vh;
+  }
+
+  .menu {
+    display: none
+  }
+
+  .menuButton {
+    display: flex;
+   
+  }
+  
+}

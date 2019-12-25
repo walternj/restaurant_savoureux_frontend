@@ -1,0 +1,123 @@
+.footerContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  padding-top: 30px;
+ 
+  border-width: 10px;
+  border-color: #F81;
+  border-top-style: solid;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.footerContent article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2vw;
+  color: #FFF;
+  margin-bottom: 20px;
+}
+
+.footerContent article #contacts {
+  display: flex;
+  flex-direction: row;
+}
+#contacts p {
+  color: #F81;
+}
+
+#footerTitle {
+  color: #FFF;
+}
+
+.footerContent p {
+  
+  color: #FFF;
+}
+
+.footerContent p img {
+  width: 30px;
+  margin-left: 2vw;
+  padding: 5px;
+  background-color:#F81;
+  border-radius: 15px;
+  box-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#reseauxSociaux  {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+#reseauxSociaux img {
+  width: 30px;
+  border-radius: 5px;
+  margin: 5px 5px 5px 5px;
+  background-color: #F81;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 5px;
+  box-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.footerContent p img:hover {
+  cursor: pointer;
+  margin-top: -5px;
+  width: 45px;
+  border-radius: 23px;
+  background-color: #F81;
+}
+
+#reseauxSociaux img:hover {
+ 
+  cursor: pointer;
+  margin-top: -5px;
+  width: 45px;
+  background-color: #F81;
+}
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+#credits {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-color: #888;
+}
+#credits p {
+  margin-bottom: 30px;
+  text-align: center;
+}
+#credits span {
+  color: #F81;
+}
+
+@media (max-width: 1200px) {
+  .footerContent article {
+    font-size: 2vw;
+
+  
+  }
+}
+
+@media (max-width: 768px) {
+  .footerContent article {
+    font-size: 3vw;
+
+  }
+}

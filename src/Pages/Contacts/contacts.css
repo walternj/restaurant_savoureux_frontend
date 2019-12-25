@@ -1,0 +1,199 @@
+.contactsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  
+  background-image: url("../../assets/images/img_bg_3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.contentContacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8vh;
+  height: 92vh;
+  width: 100%;
+  
+  font-family: Dancing Script, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 52px;
+  color: #FFF;
+  text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  background-color: rgba(0,0,0,0.10);
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.contactsContainer #title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: fit-content;
+  text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: #FFF;
+  font-size: 6vh;
+
+}
+
+#contactForm form {
+  display: block;
+  width: 100%;
+  min-width: 6vh;
+  background-color: rgba(0, 0, 0, 0.50);
+  border-top-style: solid;
+  border-top-color: #F81;
+  border-top-width: 10px;
+  padding: 10px;
+  animation-name: move;
+  animation-duration: 1s;
+}
+@keyframes move {
+  from {
+    opacity: 0;
+    transform: translateX(-35%);
+  }to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+#contactForm label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #FFF;
+  font-size: 16px;
+
+}
+
+#contactForm input {
+  display: flex;
+  height: 35px;
+  width: 100%;
+  background-color: transparent;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1.2px;
+  border-color: rgba(256, 256, 256, 0.20);
+  padding: 5px 5px 5px 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #FFF;
+  font-size: 16px;
+  max-width: 100%;
+  min-width: 90%;
+}
+
+#contactForm textarea {
+  display: flex;
+  width: 100%;
+  background-color: transparent;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1.2px;
+  border-color: rgba(256, 256, 256, 0.20);
+  padding: 5px 5px 5px 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #FFF;
+  font-size: 16px;
+  max-width: 100%;
+  min-width: 90%;
+  height: 25vh;
+  
+}
+
+#button {
+  display: flex;
+  text-align: center;
+  font-size: 20px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 20px;
+  height: 35px;
+  max-width: 100%;
+  color: ivory ;
+  background-color: #F81;
+  min-width: 100%;
+  cursor: pointer;
+  border-radius: 5px;
+  border-width: 0
+}
+
+#button:hover {
+  background-color: rgb(194, 97, 0);
+  cursor: pointer;
+}
+
+#modalWindow {
+
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: #F81;
+}
+#modalTitle {
+  color:  #F81
+  
+}
+#confirmButton {
+  background-color: #F81;
+  border-color: #F81;
+}
+
+@media (max-width: 1024px) {
+  .contactsContainer  {
+    display: flex;
+    align-content: center;
+    width: 100%;
+    min-height: fit-content;
+  }
+  .contentContacts {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 94vh;
+    margin-top: 6vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .contactsContainer  {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    min-height: fit-content;
+    min-width: fit-content;
+    height: 108vh;
+    margin-top: -8vh;
+  }
+
+  .contentContacts {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 91  vh;
+    margin-top: 9vh;
+    width: 100%;
+    min-height: fit-content;
+  }
+}
+
+@media (max-width: 767px) {
+  .contentContacts {
+    width: 100%;
+    margin-bottom: 15px;
+  }  
+}
+
+
