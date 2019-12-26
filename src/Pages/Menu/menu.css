@@ -1,15 +1,14 @@
 .menuContainer {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   width: 100%;
  
-  background-image: url('../../assets/images/stock-photo-food-frame-creative-grunge-background-blank-menu-tape-cellophane-jpg.jpg');
-  height: fit-content;
+  background-image: url('../../assets/images/dan-gold-E6HjQaB7UEA-unsplash.jpg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-attachment: fixed;
 }
 
