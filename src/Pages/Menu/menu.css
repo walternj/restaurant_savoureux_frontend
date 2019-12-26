@@ -128,7 +128,6 @@
   .menuContainer {
     
     margin-top: -8vh;
-    background: url('../../assets//images/louis-hansel-t-t_CDKSlKg-unsplash.jpg')
   }
 
   #menuTitle {
@@ -144,7 +143,7 @@
 
 @media (max-width: 574px) {
   .menuContainer {
-    background: url('../../assets//images/louis-hansel-t-t_CDKSlKg-unsplash.jpg')
+    background-image: url('../../assets//images/louis-hansel-t-t_CDKSlKg-unsplash.jpg')
   }
 
   #menuFrame {
