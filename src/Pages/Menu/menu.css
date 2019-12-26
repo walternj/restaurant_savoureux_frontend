@@ -10,7 +10,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 
 .cardDeckContainer {
@@ -24,11 +24,9 @@
   margin-top: 8vh;
   min-height: 92vh;
   min-height: fit-content;
- 
 
   padding-top: 2vh;
   padding-bottom: 2vh;
-
   background-color: rgba(0,0,0,0.45);
 }
 
