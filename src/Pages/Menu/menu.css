@@ -128,6 +128,7 @@
   .menuContainer {
     
     margin-top: -8vh;
+    background-size: auto;
   }
 
   #menuTitle {

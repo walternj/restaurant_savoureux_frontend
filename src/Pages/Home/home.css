@@ -8,17 +8,13 @@
     justify-content: space-around;
     width: 100%;
 
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.35), 
-      rgba(0, 0, 0, 0.35)
-    ),url('../../assets/images/dan-gold-E6HjQaB7UEA-unsplash.jpg');
+    background: url('../../assets/images/dan-gold-E6HjQaB7UEA-unsplash.jpg');
   
     min-height: fit-content;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: local;
-    
+    background-attachment: fixed;
   }
 
   .begin {
