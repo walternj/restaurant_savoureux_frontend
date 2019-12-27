@@ -157,9 +157,7 @@
 }
 
 @media (max-width: 1024px) {
-  .contactsContainer  {
 
-  }
   .contentContacts {
     display: flex;
     justify-content: center;
