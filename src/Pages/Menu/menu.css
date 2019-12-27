@@ -1,10 +1,10 @@
 .menuContainer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   width: 100%;
-  
+  top: initial;
   height: 100vh;
   max-height: 100vh;
   overflow: scroll;
