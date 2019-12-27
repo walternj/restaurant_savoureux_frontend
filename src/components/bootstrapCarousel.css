@@ -7,6 +7,7 @@
   align-content: center;
   background-color: transparent;
   margin-bottom: 30px;
+  z-index: 0;
 }
 
 .popularsDishes #ul {
@@ -25,6 +26,7 @@
   box-shadow: 5px 5px 10px ;
   border-top-style: solid;
   border-width: 1px;
+  z-index: 0;
 }
 
 .popularsDishes #li {
@@ -34,6 +36,7 @@
   min-width: 100%;
   height: fit-content;
   min-height: fit-content;
+  z-index: 0;
 }
 
 .popularsDishes #li img {
@@ -48,9 +51,11 @@
   object-fit: cover;
   min-height: stretch;
   margin-right: 0;
+  z-index: 0;
 }
 .popularsDishes #li img:hover {
   opacity: 0.80;
+  z-index: 0;
 }
 
 .popularsDishes #li strong {
@@ -62,9 +67,11 @@
   text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #F81;
   cursor: pointer;
+  z-index: 0;
 }
 .popularsDishes #li strong:hover {
   background-color: #FFF5;
+  z-index: 0;
 }
 
 .popularsDishes #li span {
@@ -76,6 +83,7 @@
   text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #F81;
   cursor: pointer;
+  z-index: 0;
 }
 .popularsDishes #li span:hover {
   background-color: #FFF5;
@@ -88,6 +96,7 @@
   color: #EEE;
   font-size: 2em;
   cursor: pointer;
+  z-index: 0;
 }
 .popularsDishes #li p:hover {
   font-size: 3em;
