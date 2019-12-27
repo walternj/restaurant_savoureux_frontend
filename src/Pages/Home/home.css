@@ -8,7 +8,7 @@
     height: 100vh;
     max-height: 100vh;
     top: initial;
-   
+    overflow: auto;
     
     background: url('../../assets/images/img_bg_1.jpg');
     -webkit-background-size: cover !important;
