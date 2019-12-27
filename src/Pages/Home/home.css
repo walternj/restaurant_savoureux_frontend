@@ -23,12 +23,11 @@
 
   .begin {
     display: flex;
-    top: 50vh;
     justify-content: space-around;
     flex-direction: row;
     width: 80%;
     height: 92vh;
-    min-height: fit-content;
+    min-height: 92vh;
     margin-top: 8vh;
    
   }
@@ -91,6 +90,7 @@
     flex-direction: column;
     align-items: center;
     height: 100vh;
+    min-height: fit-content;
     padding-bottom: 20px;
     padding-top: 20px;
   }
