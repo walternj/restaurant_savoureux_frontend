@@ -6,6 +6,8 @@
     width: 100%;
     height: 100vh;
     max-height: 100vh;
+    top: initial;
+    overflow: scroll;
 
     background: url('../../assets/images/dan-gold-E6HjQaB7UEA-unsplash.jpg');
     -webkit-background-size: cover !important;
@@ -20,7 +22,7 @@
 
   .begin {
     display: flex;
-  
+    top: 50vh;
     justify-content: space-around;
     flex-direction: row;
     width: 80%;

@@ -1,13 +1,14 @@
 .menuContainer {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   top: initial;
   height: 100vh;
   max-height: 100vh;
   overflow: scroll;
+  
   background-image: url('../../assets/images/stella-de-smit-3hA0w2fatSk-unsplash.jpg');
   -webkit-background-size: cover !important;
   -moz-background-size: cover !important;
@@ -24,7 +25,7 @@
   
   align-items: center;
   align-content: center;
-  top: 0;
+  top: 8vh;
   width: 100%;
   margin-top: 8vh;
   height: 92vh;
@@ -148,10 +149,6 @@
 }
 
 @media (max-width: 574px) {
-  .menuContainer {
-   
-    
-  }
 
   #menuFrame {
     justify-content: center;
