@@ -158,8 +158,15 @@
 
 .googleMaps {
   
-  height: 30vh;
+  height: 25vh;
+  min-height: fit-content;
   width: 100%;
+ 
+ 
+  border-width: 2px;
+  border-color: #000;
+  border-top-style: solid;
+  border-bottom-style: solid;
 }
 
 @media (max-width: 1024px) {
