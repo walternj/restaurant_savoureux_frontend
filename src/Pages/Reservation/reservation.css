@@ -7,7 +7,7 @@
   height: 100vh;
   max-height: 100vh;
   top: initial;
-  overflow: scroll;
+  
   
   background-image: url("../../assets/images/img_bg_2.jpg");
   -webkit-background-size: cover !important;
