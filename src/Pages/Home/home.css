@@ -83,7 +83,6 @@
     display: flex;
     align-content: center;
     width: 100%;
-    min-height: fit-content;
 
   }
   .begin {
@@ -114,7 +113,7 @@
     display: flex;
     justify-content: flex-start;
     width: 100%;
-    min-height: fit-content;
+    
     height: 108vh;
     margin-top: -8vh;
   }
