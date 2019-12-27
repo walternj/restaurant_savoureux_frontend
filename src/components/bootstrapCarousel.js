@@ -4,6 +4,7 @@ import api from '../services/api'
 
 import Carousel from 'react-bootstrap/Carousel'
 import './bootstrapCarousel.css'
+
 export default function BootsCarousel () {
   const [plats, setPlats] = useState([])
 

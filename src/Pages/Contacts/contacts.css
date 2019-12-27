@@ -156,6 +156,12 @@
   border-color: #F81;
 }
 
+.googleMaps {
+  
+  height: 30vh;
+  width: 100%;
+}
+
 @media (max-width: 1024px) {
 
   .contentContacts {

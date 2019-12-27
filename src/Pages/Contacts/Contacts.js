@@ -5,6 +5,7 @@ import SocketIO from 'socket.io-client'
 
 import api from '../../services/api'
 import Footer from '../../components/footer'
+import  GoogleMaps from '../../components/googleMaps' 
 import './contacts.css'
 const socket = SocketIO(process.env.REACT_APP_API_SOCKET_URL)
 
@@ -94,6 +95,15 @@ export default function Contacts() {
           </Modal>
 
         </div>
+      </div>
+      <div className="googleMaps">
+        <GoogleMaps 
+          isMarkerShown
+          googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
+          loadingElement={<div style={{ height: `100%` }} />}
+          containerElement={<div style={{ height: `400px` }} />}
+          mapElement={<div style={{ height: `100%` }} />}
+        />
       </div>
       <Footer />
     </div>

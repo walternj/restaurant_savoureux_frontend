@@ -8,6 +8,7 @@ import ic_facebook from '../assets/icons/facebook-square-brands.svg'
 import ic_instagran from '../assets/icons/instagram-brands.svg'
 import ic_linkedin from '../assets/icons/linkedin-brands.svg'
 import ic_youtube from '../assets/icons/youtube-brands.svg'
+
 export default function Footer() {
 
   return (
