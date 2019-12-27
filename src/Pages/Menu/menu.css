@@ -8,7 +8,8 @@
   height: 100vh;
   max-height: 100vh;
   overflow: scroll;
-  background-image: url('../../assets/images/stella-de-smit-3hA0w2fatSk-unsplash.jpg');
+
+  background-image: url('../../assets/images/menuBackground.jpg');
   -webkit-background-size: cover !important;
   -moz-background-size: cover !important;
   -o-background-size: cover !important;
