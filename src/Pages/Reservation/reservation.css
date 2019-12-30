@@ -20,7 +20,6 @@
 }
 
 .contentReservation {
-
   display: flex;
   flex-direction: column;
   margin-top: 8vh;
@@ -55,21 +54,17 @@
 @media (max-width: 1024px) {
   .reservationContainer  {
     display: flex;
-    
     align-content: center;
     width: 100%;
-      
-
   }
+
   .contentReservation {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     height: 100vh;
-    
   }
-
 }
 
 @media (max-width: 768px) {

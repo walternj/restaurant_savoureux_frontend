@@ -2,6 +2,7 @@
 .formContainer {
   display: flex;
   flex-direction: column;
+  width: fit-content;
   border-top-style: solid;
   border-top-width: 10px;
   border-top-color:  #F81;
@@ -24,6 +25,7 @@
 }
 
 .formContainer h1 {
+  white-space: nowrap;
   font-family: Dancing Script, Verdana, Geneva, Tahoma, sans-serif;
   color: #FFF;
   line-height: 2vw;

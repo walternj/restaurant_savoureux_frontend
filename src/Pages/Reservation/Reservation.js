@@ -15,7 +15,5 @@ export default function Reservation() {
       </div>
       <Footer />
     </div>
-   
-
   )
 }

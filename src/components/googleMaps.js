@@ -16,6 +16,6 @@ const googleMaps = withScriptjs(withGoogleMap((props) =>
 			/>
 		}
 	</GoogleMap>
-	))
+))
 
-	export default googleMaps
+export default googleMaps

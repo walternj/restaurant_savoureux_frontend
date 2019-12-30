@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    width: 100%;
+    width: 100vw;
 
     height: 100vh;
     max-height: 100vh;
@@ -82,8 +82,8 @@
     display: flex;
     align-content: center;
     width: 100%;
-
   }
+
   .begin {
     display: flex;
     flex-direction: column;
@@ -102,9 +102,8 @@
 
   #brand {
     margin-top: 0;
-   
   }
-
+  
 }
 
 @media (max-width: 768px) {

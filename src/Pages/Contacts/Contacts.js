@@ -35,11 +35,13 @@ export default function Contacts() {
       message,
       date,
       saw: false
+
     }).then(() => {
       socket.emit('sentMessage', {
         name,
         email
-      }, console.log('message sent'))
+      }, 
+      console.log('message sent'))
     })
 
     setName('')

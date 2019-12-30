@@ -1,12 +1,11 @@
 import React from 'react'
 
-import './OurServices.css'
-
 import Footer from '../../components/footer'
 import ic_cocktail from '../../assets/icons/martini.png'
 import ic_gastronomie from '../../assets/icons/chef.png'
 import ic_delivery from '../../assets/icons/delivery.png'
 
+import './OurServices.css'
 export default function OurServices() {
   return (
     <div className="ourServicesContainer">

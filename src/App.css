@@ -2,17 +2,27 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   align-items: center;
   min-width: fit-content;
   background-color: transparent;
 } 
+.ScrollUpButton__Container {
+  position: fixed;
+  z-index: 3;
+  top: 10px;
+  opacity: 1;
+}
+.ScrollUpButton__Toggled {
+
+}
 
 .scrollUpButtonContainer {
   background-color: none;
   color: #F819;
   text-decoration-color:#F819 ;
+  position: relative;
 }
 
 @media (max-width: 768px) {
