@@ -33,8 +33,8 @@ export default function Footer() {
         </div>
       </article>
       <div id="credits">
-        <hr />
-        <p  >2019 - Développé par <span> WALTERNJ</span> </p> 
+        <p id='devBy'>©2019 - Développé par <span> WALTERNJ</span> </p> 
+        <p>TECHS:</p>
         <p>#JavaScript #ReactJS #ReactNative #Redux #HTML5 #CSS3 #Responsive #Frontend #Backend #Node.js #Express #MongoDB #SQL #GIT #GITHUB </p>
       </div>
     </div>

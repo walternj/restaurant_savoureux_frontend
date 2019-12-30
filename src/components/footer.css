@@ -77,34 +77,32 @@
 }
 
 #reseauxSociaux img:hover {
- 
   cursor: pointer;
   margin-top: -5px;
   width: 45px;
   background-color: #F81;
 }
-hr {
-  display: block;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: inset;
-  border-width: 1px;
-}
+
 #credits {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-color: #888;
+
 }
+
 #credits p {
   margin-bottom: 30px;
   text-align: center;
 }
 #credits span {
   color: #F81;
+}
+#devBy {
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-color: #888;
+  padding-top: 15px;
 }
 
 @media (max-width: 1200px) {

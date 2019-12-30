@@ -15,13 +15,17 @@ export default function Menu() {
 	const [refresh, setRefresh] = useState(false)
 
 	useEffect(() => {
-		async function loadPlats () {
-			const response = await api.get('./plats')
-	
-			setPlats(response.data)
-			//console.log(response.data)
+		async function loadPlats () {	
+			try {
+				const response = await api.get('./plats')
+				setPlats(response.data)
+				//console.log(response.data)
 			}
-			loadPlats()
+			catch (err){
+				console.warn(err)
+			}
+		}
+		loadPlats()
 	},[refresh])
 
 	useEffect(() => {

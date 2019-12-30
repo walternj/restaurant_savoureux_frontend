@@ -10,9 +10,13 @@ export default function BootsCarousel () {
 
   useEffect(() => {
     async function loadPlats () {
-      const response = await api.get('./plats')
-
-     setPlats(response.data)
+      try {
+        const response = await api.get('./plats')
+        setPlats(response.data)
+      }
+      catch (err) {
+        console.warn(err)
+      }
     }
     loadPlats()
   },[])

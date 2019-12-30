@@ -10,8 +10,8 @@
   overflow: auto;
 
   background: linear-gradient(
-    rgba(0, 0, 0, 0.35), 
-    rgba(0, 0, 0, 0.35)
+    rgba(0, 0, 0, 0.15), 
+    rgba(0, 0, 0, 0.15)
   ),url('../../assets/images/img_bg_1.jpg');
   -webkit-background-size: cover !important;
   -moz-background-size: cover !important;
@@ -20,7 +20,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-
 }
 
 #headerServices {
@@ -62,11 +61,16 @@
 
 #headerServices #by {
   display: flex;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+  align-self: center;
   font-size: 1vw;
   font-weight: bold;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: rgba(207, 198, 198, 0.842);
   line-height: 10px;
+  margin-bottom: 15px;
 }
 
 #servicesContaint {
@@ -139,7 +143,6 @@
   border-width: 2px;
   border-style: solid;
   border-radius: 60px;
-
 }
 
 @media (max-width: 768px) {
@@ -151,14 +154,19 @@
   #headerServices p {
     font-size: 8vw;  
   }
-}
 
-#servicesContaint p {
-  font-size: 8vw;
-}
+  #headerServices #by {
+    font-size: 2vw;
+  }
 
-#services p {
-  font-size: 16px;
+
+  #servicesContaint p {
+    font-size: 8vw;
+  }
+
+  #services p {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 700px) {
