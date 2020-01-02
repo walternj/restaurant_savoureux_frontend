@@ -62,16 +62,16 @@ export default function Header() {
                 <NavLink activeClassName="main-dropdown-active" exact to="/" >
                   <li><i className="fa fa-home" /> Home </li>
                 </NavLink>
-                <NavLink    to="/menu" activeClassName="main-dropdown-active">
+                <NavLink activeClassName="main-dropdown-active" exact to="/menu">
                   <li><i className="fa fa-list-alt"/> Menus </li>
                 </NavLink>
-                <NavLink   to="/services" activeClassName="main-dropdown-active">
+                <NavLink activeClassName="main-dropdown-active" exact to="/services">
                   <li>🛎 Services </li>
                 </NavLink>
-                <NavLink   to="/contacts" activeClassName="main-dropdown-active">  
+                <NavLink activeClassName="main-dropdown-active" exact to="/contacts">  
                   <li><i className="fa fa-envelope-open"/> Contacts </li>
                 </NavLink>
-                <NavLink   to="/reservation" activeClassName="main-dropdown-active">  
+                <NavLink activeClassName="main-dropdown-active" exact to="/reservation">  
                   <li>🍽 Réservations </li>
                 </NavLink>
               </nav>
