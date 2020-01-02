@@ -20,7 +20,6 @@ export default function Header() {
   }
 
   const handleCloseMenu  = () => {
-
     setShowMenu(false)
     document.removeEventListener('click', handleCloseMenu)
   }

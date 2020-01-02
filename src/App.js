@@ -8,15 +8,15 @@ import {VerticleButton as ScrollUpButton} from 'react-scroll-up-button'
 import './App.css'
 
 function App({history}) {
-  const buttonUpStyle = {
+/*   const buttonUpStyle = {
     backgroundColor: '#F818',
     marginRight: '30px'
-  }
+  } */
 
   return (
     <div id="app" className="App">
       <Routes />
-      <ScrollUpButton 
+{/*       <ScrollUpButton 
         style={buttonUpStyle} 
         StopPosition={0}
         ShowAtPosition={150}
@@ -24,7 +24,7 @@ function App({history}) {
         AnimationDuration={1000} 
         ContainerClassName='ScrollUpButton__Container'
         TransitionClassName='ScrollUpButton__Toggled'
-      />
+      /> */}
     </div> 
    
   )
